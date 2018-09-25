@@ -17,7 +17,7 @@ while play_again:
 
 		i = 0
 		while i < aces:
-			if res + aces * 11 < 21:
+			if res + aces * 11 <= 21:
 				res += aces * 11
 				return res
 			else:
